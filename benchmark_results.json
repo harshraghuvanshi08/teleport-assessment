@@ -1,0 +1,104 @@
+[
+    {
+        "query": "How can hallucinations be reduced in LLM systems?",
+        "strategy_a": [
+            {
+                "chunk": "Large language models often suffer from hallucination issues when generating responses without grounded context. Retrieval pipelines reduce hallucinations by injecting relevant documents directly into the model prompt during inference.",
+                "score": 0.40533867478370667
+            },
+            {
+                "chunk": "Observability systems monitor token usage, latency, retrieval quality, and hallucination frequency in production AI platforms. Continuous evaluation helps maintain model reliability and performance.",
+                "score": 0.14544638991355896
+            },
+            {
+                "chunk": "Distributed inference architectures balance AI workloads across multiple compute nodes to maintain low latency under heavy traffic conditions. Autoscaling mechanisms dynamically allocate GPU resources.",
+                "score": 0.115583136677742
+            }
+        ],
+        "strategy_b": {
+            "expanded_query": "How can hallucinations be reduced in LLM systems? grounded context retrieval augmented generation factual accuracy semantic retrieval document grounding",
+            "results": [
+                {
+                    "chunk": "Large language models often suffer from hallucination issues when generating responses without grounded context. Retrieval pipelines reduce hallucinations by injecting relevant documents directly into the model prompt during inference.",
+                    "score": 0.7132493257522583
+                },
+                {
+                    "chunk": "Retrieval-Augmented Generation systems improve factual accuracy by combining large language models with external knowledge retrieval. User queries are embedded into vector representations and matched against semantically similar document chunks stored inside a vector database.",
+                    "score": 0.531478226184845
+                },
+                {
+                    "chunk": "Reranking models evaluate retrieved documents and reorder results based on contextual relevance. Cross-encoder rerankers often improve retrieval precision in RAG pipelines.",
+                    "score": 0.4034423530101776
+                }
+            ]
+        }
+    },
+    {
+        "query": "How do AI systems reduce inference cost?",
+        "strategy_a": [
+            {
+                "chunk": "Token optimization strategies reduce inference costs in production AI systems. Chunk compression, response truncation, and context filtering help minimize unnecessary token consumption.",
+                "score": 0.60147625207901
+            },
+            {
+                "chunk": "Caching layers improve AI application responsiveness by storing frequently requested embeddings and generated responses. Semantic caching reduces redundant inference operations.",
+                "score": 0.5266355872154236
+            },
+            {
+                "chunk": "Distributed inference architectures balance AI workloads across multiple compute nodes to maintain low latency under heavy traffic conditions. Autoscaling mechanisms dynamically allocate GPU resources.",
+                "score": 0.5042881965637207
+            }
+        ],
+        "strategy_b": {
+            "expanded_query": "How do AI systems reduce inference cost? token optimization quantization batching semantic caching transformer efficiency",
+            "results": [
+                {
+                    "chunk": "Token optimization strategies reduce inference costs in production AI systems. Chunk compression, response truncation, and context filtering help minimize unnecessary token consumption.",
+                    "score": 0.6915073394775391
+                },
+                {
+                    "chunk": "Caching layers improve AI application responsiveness by storing frequently requested embeddings and generated responses. Semantic caching reduces redundant inference operations.",
+                    "score": 0.6676851511001587
+                },
+                {
+                    "chunk": "Distributed inference architectures balance AI workloads across multiple compute nodes to maintain low latency under heavy traffic conditions. Autoscaling mechanisms dynamically allocate GPU resources.",
+                    "score": 0.49127209186553955
+                }
+            ]
+        }
+    },
+    {
+        "query": "How is retrieval quality improved in RAG pipelines?",
+        "strategy_a": [
+            {
+                "chunk": "Reranking models evaluate retrieved documents and reorder results based on contextual relevance. Cross-encoder rerankers often improve retrieval precision in RAG pipelines.",
+                "score": 0.5867366790771484
+            },
+            {
+                "chunk": "Token optimization strategies reduce inference costs in production AI systems. Chunk compression, response truncation, and context filtering help minimize unnecessary token consumption.",
+                "score": 0.40395939350128174
+            },
+            {
+                "chunk": "Query expansion improves retrieval quality by enriching short or ambiguous user questions with semantically related terminology. Expanded queries often increase recall during vector similarity search.",
+                "score": 0.36072078347206116
+            }
+        ],
+        "strategy_b": {
+            "expanded_query": "How is retrieval quality improved in RAG pipelines? reranking hybrid search vector similarity query expansion semantic search BM25",
+            "results": [
+                {
+                    "chunk": "Reranking models evaluate retrieved documents and reorder results based on contextual relevance. Cross-encoder rerankers often improve retrieval precision in RAG pipelines.",
+                    "score": 0.7492091655731201
+                },
+                {
+                    "chunk": "Hybrid search combines keyword-based retrieval with semantic vector search to improve relevance ranking. BM25 and dense embeddings are frequently used together in enterprise retrieval systems.",
+                    "score": 0.6872607469558716
+                },
+                {
+                    "chunk": "Query expansion improves retrieval quality by enriching short or ambiguous user questions with semantically related terminology. Expanded queries often increase recall during vector similarity search.",
+                    "score": 0.6619725823402405
+                }
+            ]
+        }
+    }
+]
